@@ -3,6 +3,11 @@
 	"version": "1.0.0",
 	"description": "A powerful React hook for data fetching and mutation with TanStack Query and Axios",
 	"author": "Mahfuzar Rahman <mahfuzarcse@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mahfuzar07/use-app-data.git"
+	},
+	"homepage": "https://github.com/mahfuzar07/use-app-data#readme",
 	"license": "MIT",
 	"keywords": [
 		"react",
