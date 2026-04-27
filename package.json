@@ -1,0 +1,48 @@
+{
+	"name": "@mahfuzar/use-app-data",
+	"version": "1.0.0",
+	"description": "A powerful React hook for data fetching and mutation with TanStack Query and Axios",
+	"author": "Mahfuzar Rahman <mahfuzarcse@gmail.com>",
+	"license": "MIT",
+	"keywords": [
+		"react",
+		"hooks",
+		"tanstack-query",
+		"axios",
+		"data-fetching",
+		"mutation",
+		"optimistic-update"
+	],
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"dev": "tsup --watch",
+		"lint": "tsc --noEmit",
+		"prepublishOnly": "npm run build"
+	},
+	"peerDependencies": {
+		"@tanstack/react-query": ">=5.0.0",
+		"axios": ">=1.0.0",
+		"react": ">=18.0.0"
+	},
+	"devDependencies": {
+		"@tanstack/react-query": "^5.0.0",
+		"@types/react": "^18.0.0",
+		"axios": "^1.6.0",
+		"react": "^18.0.0",
+		"tsup": "^8.0.0",
+		"typescript": "^5.0.0"
+	}
+}
